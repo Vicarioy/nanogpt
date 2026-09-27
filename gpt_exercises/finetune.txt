@@ -1,0 +1,1 @@
+A small focused dataset teaches a particular style. Fine tuning starts with useful general patterns and adapts them to a narrower collection of examples.

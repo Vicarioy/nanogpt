@@ -1,0 +1,3 @@
+A transformer learns broad language patterns from many examples. Words, punctuation, rhythm, and structure provide a foundation for later adaptation. Pretraining teaches the model general statistical habits before a focused task begins.
+
+Attention connects a position to earlier context. The model predicts the next character, adjusts its parameters, and repeats the process across the dataset.

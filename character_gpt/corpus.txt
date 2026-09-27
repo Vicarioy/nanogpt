@@ -1,0 +1,16 @@
+The small machine learns one character at a time.
+It reads a little book, remembers patterns, and tries to write a new line.
+A quiet workshop fills with words, questions, and patient experiments.
+
+A model begins with numbers. The numbers become useful when examples show them
+which symbols tend to follow other symbols. Attention lets each position look
+back at the context before it chooses what comes next.
+
+This tiny corpus is deliberately plain. It is large enough to demonstrate
+training and generation, yet small enough to run on a laptop while learning.
+The best experiments are easy to repeat: change the text, run the script, and
+compare the sample produced by the model.
+
+Curiosity starts the process. Careful measurement improves it. Each pass through
+the data adjusts the model a little, and each generated character reveals what
+it has learned so far.

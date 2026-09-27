@@ -1,0 +1,23 @@
+[project]
+name = "nanogpt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Victor", email = "Vicdan0001@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jsonschema>=4.23.0",
+    "matplotlib>=3.9.0",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+]
+
+[project.scripts]
+nanogpt = "nanogpt:main"
+nanogpt-chat = "nanogpt.chatbot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
